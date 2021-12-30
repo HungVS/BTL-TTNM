@@ -40,7 +40,7 @@ export const Chat = (props) => {
 					)}
 				</div>
 				<div class='footer'>
-					<input type='text' ref={textRef} />
+					<input id="chat_input" type='text' ref={textRef} placeholder="Nhập tin nhắn của bạn ở đây" />
 					<button onClick={handleSend}>
 						<i class='fa fa-paper-plane'></i>
 					</button>
