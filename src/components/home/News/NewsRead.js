@@ -4,6 +4,7 @@ import "./components/FontAwesomeIcons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import realesate1 from "./image/realestate1.jpg";
 import maudon from "./image/maudon.jpg";
+import maudon_1 from "./image/maudon_1.jpg";
 import maudon1 from "./image/maudon1.jpg";
 import maudon2 from "./image/maudon2.jpg";
 import { Link } from "react-router-dom";
@@ -95,7 +96,7 @@ const NewsRead = () => {
 							<img
 								style={{ margin: "10px auto" }}
 								className='news_read_illustration'
-								src={maudon}
+								src={maudon_1}
 							/>
 							<p className='news_read_column_content_paragrapgh'>
 								Được kiến tạo theo mô hình “Đô thị trong lòng đô thị”, phân khu
