@@ -4,11 +4,11 @@ import "./res/index.js";
 
 const Support = () => {
 	return (
-		<div className='page_support' style={{ marginBottom: "100px" }}>
+		<div className='page_support' style={{ paddingBottom: "100px" }}>
 			{/* <h1 className='support-title'>THÔNG TIN LIÊN HỆ HUSTHOME</h1> */}
 			<div
 				className=' section-title'
-				style={{ marginTop: "100px", textAlign: "center" }}>
+				style={{ paddingTop: "100px", textAlign: "center" }}>
 				<h2>THÔNG TIN LIÊN HỆ HUSTHOME</h2>
 			</div>
 			<div className='info_block'>
@@ -51,7 +51,7 @@ const Support = () => {
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='home' />
-										<label className='label_info'>Địa chỉ dự án</label>
+										<span className='label_info'>Địa chỉ dự án</span>
 										<p className='parag_info'>
 											Số 100 Đại Cồ Việt, phường Bách Khoa, quận Hai Bà Trưng,
 											Hà Nội
@@ -60,7 +60,7 @@ const Support = () => {
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='home' />
-										<label className='label_info'>Địa chỉ giao dịch</label>
+										<span className='label_info'>Địa chỉ giao dịch</span>
 										<p className='parag_info'>
 											Tầng 1, tòa nhà A5-ĐN1, đường Trần Thủ Độ, P. Hoàng Liệt,
 											Q. Hoàng Mai, Hà Nội
@@ -69,19 +69,19 @@ const Support = () => {
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='phone' />
-										<label className='label_info'>Điện thoại</label>
+										<span className='label_info'>Điện thoại</span>
 										<p className='parag_info'>0933471824</p>
 									</div>
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='envelope' />
-										<label className='label_info'>Thư điện tử</label>
+										<span className='label_info'>Thư điện tử</span>
 										<p className='parag_info'>harmonygl@gmail.com</p>
 									</div>
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='globe' />
-										<label className='label_info'>Trang web</label>
+										<span className='label_info'>Trang web</span>
 										<p className='parag_info'>https://www.husthome.com.vn</p>
 									</div>
 								</div>
@@ -124,7 +124,7 @@ const Support = () => {
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='home' />
-										<label className='label_info'>Địa chỉ chung cư</label>
+										<span className='label_info'>Địa chỉ chung cư</span>
 										<p className='parag_info'>
 											4 Lương Định Của, Tổ 11, Phường Hoàng Văn Thụ, Thành phố
 											Thái Nguyên, Tỉnh Thái Nguyên
@@ -133,19 +133,19 @@ const Support = () => {
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='phone' />
-										<label className='label_info'>Điện thoại</label>
+										<span className='label_info'>Điện thoại</span>
 										<p className='parag_info'>0973917603</p>
 									</div>
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='envelope' />
-										<label className='label_info'>Thư điện tử</label>
+										<span className='label_info'>Thư điện tử</span>
 										<p className='parag_info'>amadeusht@gmail.com</p>
 									</div>
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='globe' />
-										<label className='label_info'>Trang web</label>
+										<span className='label_info'>Trang web</span>
 										<p className='parag_info'>https://www.husthome.com.vn</p>
 									</div>
 								</div>
@@ -174,7 +174,7 @@ const Support = () => {
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='home' />
-										<label className='label_info'>Địa chỉ BQL dự án</label>
+										<span className='label_info'>Địa chỉ BQL dự án</span>
 										<p className='parag_info'>
 											Địa chỉ 1: 1095 Hà Huy Tập, Phường Nam Hà, Thành phố Hà
 											Tĩnh, Tỉnh Hà Tĩnh
@@ -187,19 +187,19 @@ const Support = () => {
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='phone' />
-										<label className='label_info'>Điện thoại</label>
+										<span className='label_info'>Điện thoại</span>
 										<p className='parag_info'>0175844104</p>
 									</div>
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='envelope' />
-										<label className='label_info'>Thư điện tử</label>
+										<span className='label_info'>Thư điện tử</span>
 										<p className='parag_info'>iris.info@gmail.com</p>
 									</div>
 
 									<div className='row_mb5'>
 										<FontAwesomeIcon className='iconAwesome' icon='globe' />
-										<label className='label_info'>Trang web</label>
+										<span className='label_info'>Trang web</span>
 										<p className='parag_info'>
 											https://www.iris.husthome.com.vn
 										</p>

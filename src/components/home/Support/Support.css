@@ -7,7 +7,7 @@
 }
 
 .page_support {
-	/* background-image: url("realestate.jpg"); */
+	background-color: #f5f1e6;
 }
 
 .page_support .container {
@@ -28,8 +28,8 @@
 	border: solid 1px black;
 	text-align: left;
 	border-radius: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
 	background-color: antiquewhite;
 }
 
@@ -39,6 +39,7 @@
 	text-align: center;
 	align-self: center;
 	height: 50px;
+	font-size: 25px;
 	border-bottom: solid 0.5px grey;
 	background-color: #e8ac5c;
 	border-top-left-radius: 15px;
@@ -59,13 +60,14 @@
 }
 
 .page_support .row_mb5 {
+	padding-top: 5px;
 	padding-bottom: 10px;
 }
 
 .page_support .label_info {
 	font-size: 15px;
 	font-weight: bold;
-	padding-left: 5px;
+	padding-left: 8px;
 }
 
 .page_support .parag_info {
