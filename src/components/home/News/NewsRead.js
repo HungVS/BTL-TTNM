@@ -131,68 +131,68 @@ const NewsRead = () => {
 								<div id='news_promotion_content'>
 									<ul>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;HUSTHOME ngày hội siêu khuyến mãi, giảm giá cực
 												shock cho khách hàng thân thiết!!! (17/04/2087) <br />
 												<br />
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Novel Tràn ngập hạnh phúc! HUSTHOME kí kết thành
 												công với VINGROUP, tặng voucher VINFAST cho 2000 khách
 												hàng (29/12/2077)
 												<br />
 												<br />
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Ưu đãi đặc biệt cho khách hàng giao dịch qua ứng
 												dụng HHPay Online (21/12/2112) <br />
 												<br />
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Tri ân khách hàng năm 2077, tặng xe ô tô 6 bánh
 												cho người tiêu dùng sản phẩm trên 66 năm (10/08/2022)
 												<br />
 												<br />
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Kỉ niệm 50 năm thành lập, HUSTHOME "chơi lớn" tặng
 												Voucher giảm giá cho khách hàng (09/08/2022)
 												<br />
 												<br />
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Xuân đến lộc về! HUSTHOME tưng bừng khuyến mãi
 												mừng xuân 2022, tổ chức tour du lịch tri ân khách hàng
 												năm 2021 (01/08/2022)
 												<br />
 												<br />
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Ưu đãi thuê nhà HUSTHOME trong mùa dịch COVID từ
 												HUSTHOME Serviced Residences Telas và nhà tài trợ
 												(16/06/2022)
 												<br />
 												<br />
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -200,7 +200,7 @@ const NewsRead = () => {
 							<div id='news_latestproject'>
 								<h2 className='news_column_title'>DỰ ÁN MỚI NHẤT</h2>
 								<div id='news_latestproject_content'>
-									<a href='https://www.google.com/'>
+									<Link to='/detail-project'>
 										<img
 											style={{
 												width: "100%",
@@ -210,7 +210,7 @@ const NewsRead = () => {
 											id='news_latestproject_image'
 											src={realesate1}
 										/>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>

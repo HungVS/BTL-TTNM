@@ -62,7 +62,7 @@ const News = () => {
 										</Link>
 									</li>
 									<li>
-										<a href=''>
+										<Link to='/news-detail'>
 											<div id='market_image' className='market_column'>
 												<img className='illustration' src={noithat} />
 											</div>
@@ -83,10 +83,10 @@ const News = () => {
 												/>
 												15/12/2021 <hr />
 											</div>
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a href='https://vinhomes.vn/vi/nhung-cong-trinh-mang-dau-an-dong-duong-xuyen-suot-hon-100-nam-tai-viet-nam'>
+										<Link to='/news-detail'>
 											<div id='market_image' className='market_column'>
 												<img className='illustration' src={kiket} />
 											</div>
@@ -107,10 +107,10 @@ const News = () => {
 												/>
 												14/12/2021 <hr />
 											</div>
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a href='https://vinhomes.vn/vi/nhung-cong-trinh-mang-dau-an-dong-duong-xuyen-suot-hon-100-nam-tai-viet-nam'>
+										<Link to='/news-detail'>
 											<div id='market_image' className='market_column'>
 												<img className='illustration' src={genz} />
 											</div>
@@ -131,10 +131,10 @@ const News = () => {
 												/>
 												14/12/2021 <hr />
 											</div>
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a href='https://vinhomes.vn/vi/nhung-cong-trinh-mang-dau-an-dong-duong-xuyen-suot-hon-100-nam-tai-viet-nam'>
+										<Link to='/news-detail'>
 											<div id='market_image' className='market_column'>
 												<img className='illustration' src={canhomoi} />
 											</div>
@@ -155,7 +155,7 @@ const News = () => {
 												/>
 												13/12/2021 <hr />
 											</div>
-										</a>
+										</Link>
 									</li>
 								</ul>
 								<button className='market_button'>XEM THÊM</button>
@@ -185,50 +185,50 @@ const News = () => {
 											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Ưu đãi đặc biệt cho khách hàng giao dịch qua ứng
 												dụng HHPay Online (21/12/2112) <br />
 												<br />
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Tri ân khách hàng năm 2077, tặng xe ô tô 6 bánh
 												cho người tiêu dùng sản phẩm trên 66 năm (10/08/2022)
 												<br />
 												<br />
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Kỉ niệm 50 năm thành lập, HUSTHOME "chơi lớn" tặng
 												Voucher giảm giá cho khách hàng (09/08/2022)
 												<br />
 												<br />
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Xuân đến lộc về! HUSTHOME tưng bừng khuyến mãi
 												mừng xuân 2022, tổ chức tour du lịch tri ân khách hàng
 												năm 2021 (01/08/2022)
 												<br />
 												<br />
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href='https://www.google.com/'>
+											<Link to='/news-detail'>
 												<FontAwesomeIcon icon='newspaper' />
 												&nbsp;Ưu đãi thuê nhà HUSTHOME trong mùa dịch COVID từ
 												HUSTHOME Serviced Residences Telas và nhà tài trợ
 												(16/06/2022)
 												<br />
 												<br />
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
