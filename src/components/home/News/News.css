@@ -37,7 +37,7 @@
 	width: 250px;
 	height: 200px;
 	border-radius: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .illustration {
@@ -49,7 +49,7 @@
 	/* border: 1px solid black; */
 	width: 500px;
 	height: 200px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .market_news_title {
@@ -66,16 +66,23 @@
 	margin-left: 15px;
 	margin-right: 10px;
 	margin-bottom: 15px;
+	color: black;
+	font-size: 18px;
 }
 
 .market_news_time {
 	margin-left: 15px;
 	margin-right: 10px;
+	color: black;
 }
 
 #news_promotion {
 	/* border: 1px solid black; */
 	background-color: white;
+}
+
+.news_promotion_link {
+	color: black;
 }
 
 #news_promotion_content {
