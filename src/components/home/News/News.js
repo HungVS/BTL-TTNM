@@ -158,7 +158,7 @@ const News = () => {
 										</Link>
 									</li>
 								</ul>
-								<button className='market_button'>XEM THÊM</button>
+								<button className='market_button'>XEM THÊM TIN KHÁC</button>
 							</div>
 						</div>
 						<div className='news_column'>
