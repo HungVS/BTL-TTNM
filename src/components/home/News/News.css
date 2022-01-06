@@ -60,6 +60,10 @@
 	margin-bottom: 2px;
 }
 
+.market_news_title:hover {
+	color: blue;
+}
+
 .market_news_description {
 	padding: 0px;
 	margin-top: 5px;
