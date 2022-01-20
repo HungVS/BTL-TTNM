@@ -7,7 +7,8 @@
 }
 
 .page_support {
-	background-color: #f5f1e6;
+	/* background-color: #f5f1e6; */
+	background-color: white;
 }
 
 .page_support .container {
@@ -25,7 +26,7 @@
 	float: left;
 	width: 360px;
 	height: 600px;
-	border: solid 1px black;
+	/* border: solid 1px black; */
 	text-align: left;
 	border-radius: 15px;
 	margin-left: 15px;
@@ -40,7 +41,7 @@
 	align-self: center;
 	height: 50px;
 	font-size: 25px;
-	border-bottom: solid 0.5px grey;
+	/* border-bottom: solid 0.5px grey; */
 	background-color: #e8ac5c;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
